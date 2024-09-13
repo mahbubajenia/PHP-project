@@ -258,3 +258,81 @@ ASSIGNMENT OPERATOR
 %=
 */
 <br>
+<?php
+echo $amount = 10;
+?>
+<br>
+<?php
+$amount = 10;
+//$amount = $amount +5;
+$amount += 5;
+echo $amount;
+?>
+<br>
+<?php
+$amount = 10;
+//$amount = $amount -8;
+$amount -= 8;
+echo $amount;
+?>
+<br>
+<?php
+$amount = 10;
+//$amount = $amount *8;
+$amount *= 8;
+echo $amount;
+?>
+<br>
+<?php
+$amount = 10;
+//$amount = $amount /5;
+$amount /= 5;
+echo $amount;
+?>
+<br>
+<?php
+$amount = 10;
+//$amount = $amount %5;
+$amount %= 5;
+echo $amount;
+?>
+<br>
+INCREMENT/ DECREMENT OPERATORS
+<br>
+<?php
+//INCREMENT
+$amount = 10;
+//++ PORETHAKLE POSTFIX, SAMNE THAKLE PREFIX
+$amount ++;//$amount = $amount +1 // $amount +1 // increment operator anount variable er samne 1 or 1 jog kore
+echo $amount;
+?>
+<br>
+<?php
+//DECREMENT
+$amount = 10;
+$amount --;//$amount = $amount -1 // $amount -1 // increment operator anount variable er samne 1 or 1 jog kore
+echo $amount;
+?>
+<br>
+<?php
+$amount = 10;
+echo  --$amount;//$amount = $amount -1
+echo "<br>";
+echo $amount;
+?>
+<br>
+CONCATENATION OPERATOR
+<br>
+<?php
+$first_name = "Rajdwip";
+$last_name = "Majumder";
+//$full_name = "Rajdwip Majumdar";
+$full_name = "Hello"."  " .$first_name. " " .$last_name;
+echo $full_name;
+?>
+<br>
+<?php
+$first_name = "Rajdwip";
+$first_name .= " Majumder";
+echo $first_name;
+?>
